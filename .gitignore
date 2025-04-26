@@ -1,0 +1,9 @@
+API/bin
+Application/bin
+Domain/bin
+Persistence/bin
+
+API/obj/**/
+Application/obj/**/
+Domain/obj/**/
+Persistence/obj/**/

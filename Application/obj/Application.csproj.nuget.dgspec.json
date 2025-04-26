@@ -150,7 +150,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/edenarielguzmanandia/Documents/Courses/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/edenarielguzmanandia/Documents/Courses/Reactivities/Domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -168,6 +172,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
